@@ -1,7 +1,7 @@
 <?php
 /* Plugin Name: Minimalist Instagram Widget
 Plugin URI: http://impression11.co.uk/
-Version: 1.8
+Version: 1.9
 Description: A minimalist Instagram widget to display your photos and videos.
 Author: Ethan Gibson
 Author URI: http://impression11.co.uk/
@@ -242,8 +242,8 @@ function minstagram($atts)
 					
 					$https = 1;
 
-					$instaarray[$data->id]['thumbnail'] = $data->images->thumbnail->url;
-					$instaarray[$data->id]['image'] = $data->images->low_resolution->url;
+					$instaarray[$data->id]['thumbnail'] = $data->images->low_resolution->url;
+					$instaarray[$data->id]['image'] = $data->images->standard_resolution->url;
 
 					if (isset($data->videos->low_resolution->url))
 						{

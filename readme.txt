@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: Instagram, Widget, Minimalist
 Requires at least: 3.6
 Tested up to: 3.9.2
-Stable tag: 1.8
+Stable tag: 1.9
 
 A quick and efficient Instagram widget to display recent Instagram Photos & Videos.
 
@@ -45,6 +45,9 @@ Enjoy using our plugin? [Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xc
 5. To avoid strict API limits use caching to ensure that the requests to Instagram are minimal. This will cache the results and the images; this however requires the plugin folder to the writable by the Plugin itself.
 
 == Changelog ==
+
+= 1.9 =
+* Increased Thumbnail and Standard images sizes up by one level
 
 = 1.8 =
 * Added an option to allow the retrial of images from Instagram using HTTPS. 
